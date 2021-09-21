@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <script src="./battleship.js"></script>
+<style>
+  .board,
+  .heatmap {
+    border: 1px solid black;
+    margin: 5px;
+    display: inline-block;
+  }
+
+  .board td,
+  .heatmap td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .board td.ship {
+    background-color: green;
+  }
+
+  .board td.ship.hit {
+    background-color: red;
+  }
+
+  .board td.ship.sunk {
+    background-color: darkred;
+  }
+
+  .board td.miss {
+    background-color: blue;
+  }
+  </head>
+
+  <body>
+  </body>
+</html>
